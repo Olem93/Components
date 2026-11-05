@@ -7,7 +7,7 @@ const model = {
     loggedOutPage: {
       loginName: null,
       loginPassword: null,
-      loginMessage: null,
+      loginMessage: "Du er ikke logget inn",
     },
     loggedInPage: {
       profileStats: null,

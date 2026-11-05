@@ -22,6 +22,6 @@ function logIn() {
 function logOut() {
   model.app.loggedInUserId = null;
   model.app.currentPage = "loggedOutPage";
-  model.viewState.loggedOutPage.loginMessage = null;
+
   updateView();
 }
