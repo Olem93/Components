@@ -1,14 +1,9 @@
 const model = {
   app: {},
-  viewState: {},
+  viewState: {
+    saveText: null,
+  },
   data: {
-    list: [
-      {
-        title: "Støvsug rommet",
-      },
-      {
-        title: "Oppvask",
-      },
-    ],
+    list: ["støvsug rommet", "ta oppvasken"],
   },
 };
