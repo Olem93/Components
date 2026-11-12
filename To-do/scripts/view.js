@@ -10,19 +10,14 @@ function updateView() {
   app.innerHTML = html;
 }
 
-function addToList() {
-  model.data.list.push(model.viewState.saveText);
-  console.log(model.data.list);
-  updateView();
-}
-
 function listFunction() {
   let html = "";
+
   for (let i = 0; i < model.data.list.length; i++) {
     html += /*HTML*/ `
     <div>
       <span>${model.data.list[i]}</span>
-      <button onclick="model.data.list.splice(${[i]},1)">Fjern</button>
+      <button onclick="removeItem(${[i]})">Fjern</button>
     </div>
   `;
     console.log([i]);

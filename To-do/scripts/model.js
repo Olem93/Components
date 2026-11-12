@@ -1,7 +1,7 @@
 const model = {
   app: {},
   viewState: {
-    saveText: null,
+    saveText: "",
   },
   data: {
     list: ["støvsug rommet", "ta oppvasken"],
